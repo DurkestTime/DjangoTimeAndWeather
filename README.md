@@ -21,6 +21,10 @@ SECRET_KEY=ваш_секретный_ключ_django
 ```bash
 python manage.py migrate
 ```
+Создание администратора
+```bash
+python manage.py createsuperuser
+```
 Запуск сервера
 ```bash
 python manage.py runserver
